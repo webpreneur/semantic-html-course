@@ -15,6 +15,7 @@ The problem is that a lot of (frontend) web developer writes very poor HTML code
 * [w3schools - HTML Semantic Elements](https://www.w3schools.com/html/html5_semantic_elements.asp)
 * [freecodecamp - Semantic HTML5 Elements Explained](https://www.freecodecamp.org/news/semantic-html5-elements/)
 * [html.com - What On Earth Is Semantic Markup?](https://html.com/semantic-markup/)
+* [CSS Tricks articles tagged with semantics](https://css-tricks.com/tag/semantics/)
 
 
 ### A11ycasts with Rob Dodson
