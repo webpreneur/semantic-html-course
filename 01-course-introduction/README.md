@@ -37,3 +37,8 @@ Sidenote: if you prefer the former one, maybe this course is suits your needs :)
 
 * To write more human and machine readable code
 * To excel at job interviews
+
+
+## Resources
+
+- [https://mixkit.co/free-stock-art/](https://mixkit.co/free-stock-art/)
