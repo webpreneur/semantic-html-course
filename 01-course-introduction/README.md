@@ -38,6 +38,17 @@ Sidenote: if you prefer the former one, maybe this course is suits your needs :)
 * To write more human and machine readable code
 * To excel at job interviews
 
+## Better Search Engine Rankings
+
+The web crawlers (search-engine spiders) are dependent on the semantic clarity of the web pages.
+
+## Better Accessibility
+
+Good semantic HTML also improves the accessibility of web documents. For example, when a screen reader or audio browser can correctly ascertain the structure of a document, it will not waste the visually impaired user's time by reading out repeated or irrelevant information when it has been marked up correctly.
+
+
+Bring out the meaning of your web pages and applications by the correct use of semantic markup wherever possible.
+
 
 ## Resources
 

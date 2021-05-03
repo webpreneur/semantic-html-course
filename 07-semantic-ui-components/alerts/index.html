@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-tomorrow.min.css" integrity="sha512-vswe+cgvic/XBoF1OcM/TeJ2FW0OofqAVdCZiEYkd6dwGXthvkSFWOoGGJgS2CW70VK5dQM5Oh+7ne47s74VTg==" crossorigin="anonymous" />
+</head>
+<body>
+
+<main>
+
+<article>
+
+<h2>Semantic UI Message Component</h2>
+<semantic-ui-message></semantic-ui-message>
+
+<script type="text/plain" class="language-html">
+<!-- Semantic UI's Markup for a Warning Message -->
+<div class="ui warning message">
+    <div class="header">
+        You must register before you can do that!
+    </div>
+    Visit our registration page, then try again
+</div>
+
+<!-- The Semantically correct way would be something like this -->
+<aside class="ui warning message">
+    <strong class="header">
+        You must register before you can do that!
+    </strong>
+    Visit our registration page, then try again
+</aside>
+</script>
+
+<a href="https://semantic-ui.com/collections/message.html">Message - Semantic UI</a>
+
+</article>
+
+<article>
+    <h2>Alert Components - Bootstrap v5.0</h2>
+    <a href="https://getbootstrap.com/docs/5.0/components/alerts/"></a>
+</article>
+
+<article>
+    <h2>tailwindcss</h2>
+    <a href="https://tailwindcss.com/"></a>
+</article>
+
+<article>
+    <h2>UIkit</h2>
+    <a href="https://getuikit.com/"></a>
+</article>
+
+<article>
+    <h2>Bulma</h2>
+    <a href="https://bulma.io/"></a>
+</article>
+
+<article>
+    <h2>MaterializeCSS</h2>
+    <a href="https://materializecss.com"></a>
+</article>
+
+</main>
+    
+<script>
+
+window.customElements.define('semantic-ui-message', class extends HTMLElement {
+    constructor() {
+        super()
+        .attachShadow({ mode: 'open' })
+        .innerHTML = `
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/message.min.css" />
+
+            <div class="ui warning message">
+                <div class="header">
+                    You must register before you can do that!
+                </div>
+                Visit our registration page, then try again
+            </div>
+        `;
+    }
+});
+
+
+
+</script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js" integrity="sha512-YBk7HhgDZvBxmtOfUdvX0z8IH2d10Hp3aEygaMNhtF8fSOvBZ16D/1bXZTJV6ndk/L/DlXxYStP8jrF77v2MIg==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/unescaped-markup/prism-unescaped-markup.min.js" integrity="sha512-HLGEkAJpy4x6+5YvKMTlo7Xyz2MgA/+4nJEsIOaM9b+LjLDvpsay+0EpUmSNVeopbCaT5Fptwhbc0y+pUFBPqg==" crossorigin="anonymous"></script>
+
+</body>
+</html>
